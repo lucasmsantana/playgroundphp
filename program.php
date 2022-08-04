@@ -11,7 +11,7 @@ $contaTres ->Depositar(1000);
 
 $contaUm->Sacar(250);
 $contaDois->Sacar(250);
-$contaTres->Sacar(250);
+$contaTres->Sacar(240);
 
 $contaTres->Transferir(100, $contaUm);
 $contaUm->Transferir(150, $contaDois);
